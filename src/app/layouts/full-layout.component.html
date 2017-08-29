@@ -13,7 +13,12 @@
     <nav class="sidebar-nav">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a>
+          <a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']">
+            <i class="icon-speedometer"></i> Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" [routerLink]="['/tables']">
+            <i class="icon-grid"></i> Tables <span class="badge badge-info">NEW</span></a>
         </li>
       </ul>
     </nav>
@@ -29,7 +34,8 @@
 
     <div class="container-fluid">
       <router-outlet></router-outlet>
-    </div><!-- /.conainer-fluid -->
+    </div>
+    <!-- /.conainer-fluid -->
   </main>
 </div>
 
