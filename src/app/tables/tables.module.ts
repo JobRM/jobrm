@@ -4,12 +4,12 @@ import { CommonModule } from '@angular/common';
 import { TablesComponent } from "./tables.component";
 import { TablesRoutingModule } from "./tables.routing.module";
 
-import { Ng2TableModule } from 'ng2-table/ng2-table';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 @NgModule({
   imports: [
     TablesRoutingModule,
-    Ng2TableModule,
+    Ng2SmartTableModule,
     CommonModule
   ],
   declarations: [TablesComponent]
