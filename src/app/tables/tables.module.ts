@@ -4,12 +4,12 @@ import { CommonModule } from '@angular/common';
 import { TablesComponent } from "./tables.component";
 import { TablesRoutingModule } from "./tables.routing.module";
 
-import { Ng2SmartTableModule } from 'ng2-smart-table';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 @NgModule({
   imports: [
     TablesRoutingModule,
-    Ng2SmartTableModule,
+    NgxDatatableModule,
     CommonModule
   ],
   declarations: [TablesComponent]
